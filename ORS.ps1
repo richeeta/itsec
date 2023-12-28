@@ -1,4 +1,3 @@
-#
 # OneLaunch Removal Script
 # By: Richard Im (@richeeta)
 # Last Updated: December 28, 2023
@@ -7,11 +6,16 @@
 # This PowerShell script kills all OneLaunch processes, disables scheduled tasks associated with OneLaunch, and removes files and registry keys associated with OneLaunch.
 #
 # HOW TO USE: 
-# (1) On the host machine, start PowerShell as an Administrator. 
-# (2) iwr -uri https://github.com/richeeta/itsec/blob/main/ORS.ps1 -Outfile C:\Windows\Temp\ORS.ps1
-# (3) cd C:\Windows\Temp
-# (4) .\ORS.ps1
+#  (1) On the host machine, start PowerShell as an Administrator. 
+#  (2) iwr -uri https://github.com/richeeta/itsec/blob/main/ORS.ps1 -Outfile C:\Windows\Temp\ORS.ps1
+#  (3) cd C:\Windows\Temp
+#  (4) .\ORS.ps1
+# OR
+#  Copy and paste this one-liner:
+#  Invoke-WebRequest http://github.com/richeeta/itsec/blob/main/ORS.ps1 -OutFile C:\Windows\Temp\ORS.ps1; cd C:\Windows\Temp; .\ORS.ps1
 #
+
+
 
 # Function to write progress
 function Write-ProgressMessage {
