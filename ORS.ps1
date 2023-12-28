@@ -8,7 +8,7 @@
 #
 # HOW TO USE: 
 # (1) On the host machine, start PowerShell as an Administrator. 
-# (2) curl http://github.com/ -O C:\Windows\Temp\ORS.ps1
+# (2) iwr -uri https://github.com/richeeta/itsec/blob/main/ORS.ps1 -Outfile C:\Windows\Temp\ORS.ps1
 # (3) cd C:\Windows\Temp
 # (4) .\ORS.ps1
 #
